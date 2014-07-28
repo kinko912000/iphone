@@ -21,6 +21,10 @@
 		50E31C78198713C700F2EB0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E31C5A198713C700F2EB0F /* UIKit.framework */; };
 		50E31C80198713C700F2EB0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50E31C7E198713C700F2EB0F /* InfoPlist.strings */; };
 		50E31C82198713C700F2EB0F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E31C81198713C700F2EB0F /* ____Tests.m */; };
+		50E31C961987143900F2EB0F /* ito_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E31C921987143900F2EB0F /* ito_error.png */; };
+		50E31C971987143900F2EB0F /* ito_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E31C931987143900F2EB0F /* ito_off.png */; };
+		50E31C981987143900F2EB0F /* ito_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E31C941987143900F2EB0F /* ito_on.png */; };
+		50E31C991987143900F2EB0F /* ito_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E31C951987143900F2EB0F /* ito_red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		50E31C7D198713C700F2EB0F /* 伊藤義章Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "伊藤義章Tests-Info.plist"; sourceTree = "<group>"; };
 		50E31C7F198713C700F2EB0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50E31C81198713C700F2EB0F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		50E31C921987143900F2EB0F /* ito_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ito_error.png; sourceTree = "<group>"; };
+		50E31C931987143900F2EB0F /* ito_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ito_off.png; sourceTree = "<group>"; };
+		50E31C941987143900F2EB0F /* ito_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ito_on.png; sourceTree = "<group>"; };
+		50E31C951987143900F2EB0F /* ito_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ito_red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +120,14 @@
 		50E31C5C198713C700F2EB0F /* 伊藤義章 */ = {
 			isa = PBXGroup;
 			children = (
-				50E31C65198713C700F2EB0F /* AppDelegate.h */,
+				50E31C90198713F700F2EB0F /* Commons */,
+				50E31C8B198713CD00F2EB0F /* Controllers */,
+				50E31C8C198713CE00F2EB0F /* Models */,
+				50E31C8E198713D300F2EB0F /* Views */,
+				50E31C8D198713D000F2EB0F /* Resources */,
+				50E31C8F198713ED00F2EB0F /* ViewModels */,
 				50E31C66198713C700F2EB0F /* AppDelegate.m */,
+				50E31C65198713C700F2EB0F /* AppDelegate.h */,
 				50E31C68198713C700F2EB0F /* Main.storyboard */,
 				50E31C6B198713C700F2EB0F /* ViewController.h */,
 				50E31C6C198713C700F2EB0F /* ViewController.m */,
@@ -150,6 +164,60 @@
 				50E31C7E198713C700F2EB0F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E31C8B198713CD00F2EB0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		50E31C8C198713CE00F2EB0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		50E31C8D198713D000F2EB0F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50E31C911987142500F2EB0F /* img */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		50E31C8E198713D300F2EB0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		50E31C8F198713ED00F2EB0F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		50E31C90198713F700F2EB0F /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Commons;
+			sourceTree = "<group>";
+		};
+		50E31C911987142500F2EB0F /* img */ = {
+			isa = PBXGroup;
+			children = (
+				50E31C921987143900F2EB0F /* ito_error.png */,
+				50E31C931987143900F2EB0F /* ito_off.png */,
+				50E31C941987143900F2EB0F /* ito_on.png */,
+				50E31C951987143900F2EB0F /* ito_red.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +296,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E31C991987143900F2EB0F /* ito_red.png in Resources */,
 				50E31C6F198713C700F2EB0F /* Images.xcassets in Resources */,
+				50E31C971987143900F2EB0F /* ito_off.png in Resources */,
+				50E31C961987143900F2EB0F /* ito_error.png in Resources */,
 				50E31C61198713C700F2EB0F /* InfoPlist.strings in Resources */,
 				50E31C6A198713C700F2EB0F /* Main.storyboard in Resources */,
+				50E31C981987143900F2EB0F /* ito_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
