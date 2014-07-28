@@ -17,6 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIImage *img = [UIImage imageNamed:@"ito_on.png"];  // ボタンにする画像を生成する
+
+    [self.iButton setBackgroundImage:img forState:UIControlStateNormal];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
